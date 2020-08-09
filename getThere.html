@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ways to get to Oradea</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Oswald:wght@500&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/oradea.css">
+</head>
+
+<!-- inline styling for nav item color; index.html gets its styling from the separate CSS file -->
+<style>
+  .nav-link, .navbar-nav, .nav-link {
+    color: #000 !important;
+  }
+
+  .dropdown-item {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+</style>
+<!-- inline styling for nav item color; index.html gets its styling from the separate CSS file -->
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="img/oradeaLogo-crop.jpg" alt="Oradea logo" id="OradeaLogo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="activities.html">Activities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">How to get there</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sports
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Football</a>
+          <a class="dropdown-item" href="#">Basketball</a>
+          <a class="dropdown-item" href="#">Handball</a>
+          <a class="dropdown-item" href="#">Water polo</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <h3>How to get to Oradea</h3>
+  <p>Depending on the mode of transport, there are multiple ways to get there. If you aren't coming by car, the closest and most popular airports are Budapest - Ferihegy, Satu Mare International, Cluj-Napoca International and Debrecen International; though beware that Budapest and Cluj-Napoca are both within a nearly 3 hour journey by car/bus/train from the airport.</p>
+  <p>If, however, you choose to come by car, you can follow the hungarian M3 motorway, which takes you to Oradea from the West. From either the North or the South you have the option of following the E671, and from the West the E60</p>
+</div>
+<!-- make use of the Google Maps API to insert some sort of map for the client to have a quick way of looking for routes -->
+
+
+<hr class="style-two">
+<footer>
+  <p>&copy Adam Toth - 2020</p>
+</footer> 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
